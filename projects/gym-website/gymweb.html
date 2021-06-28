@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adarsh fitness</title>
+    <style>
+        body {
+            background-size: cover;
+            background-image: url('./gym4.jpg');
+        }
+
+        .navbar {
+            background-color: none;
+            border-radius: 20px;
+            font-size: 18px;
+            position: sticky;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+            color: black;
+        }
+
+        .navbar li a:hover {
+            color: rgb(7, 241, 104);
+        }
+
+        .navbar ul {
+            overflow: auto;
+
+
+        }
+
+        .navbar li a {
+            font-style: initial;
+            font-size: 20px;
+            padding: 3px 3px;
+            text-decoration: none;
+            color: rgb(10, 1, 1);
+            font-kerning: auto;
+            font-weight: bold;
+
+        }
+
+        .search {
+            float: right;
+            border-radius: 10px;
+            padding: 5px 7px;
+            margin: 10px;
+            background-color: blanchedalmond;
+            border: 2px solid rgb(167, 141, 141);
+            opacity: inherit;
+        }
+
+        .search:hover {
+            background-color: chartreuse;
+            color: cornflowerblue;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+
+        #form {
+           margin: 70px 70px;
+           padding-top: 25px;
+            border: 2px solid black;
+            width: 200px;
+            border-radius: 10px;
+            text-align: center;
+            padding: 25px;
+            outline: none;
+        }
+
+        .text {
+            align-items: center;
+            border-radius: 25px;
+            background-color: rgb(154, 193, 209);
+            height: 25px;
+            width: 200px;
+            text-align: center;
+
+        }
+
+        .this_button {
+            border: 1px solid black;
+            border-radius: 25px;
+            background-color: tomato;
+            text-align: center;
+            width: 200px;
+            height: 25px;
+            cursor: pointer;
+            
+        }
+
+        .this_button:hover {
+            color: blueviolet;
+            cursor: pointer;
+            background-color: chartreuse;
+            transform: rotate(3deg)
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="https://twitter.com">About</a></li>
+                <li><a href="https://Instagram.com">Services</a></li>
+                <li><a href="https://facbook.com">Home</a></li>
+                <li><a href="https://google.com">contact</a></li>
+                <button class="search">Know more</button>
+                <li><a href="login.HTML">Login</a></li>
+                <li><a href="">Signup</a></li>
+        </nav>
+    </header>
+    <div class="container">
+        <form id="form" action="no actio.php">
+            <div>
+                <br>
+                <input class="text" type="text" name="my text" placeholder="Name">
+            </div>
+            <div>
+                <br>
+                <input class="text" type="text" name="my text" placeholder="City">
+            </div>
+            <div>
+                <br>
+                <input class="text" type="text" name="my text" placeholder="Contact">
+            </div>
+
+            <div>
+                <br>
+                <input class="text" type="text" name="my text" placeholder="Age">
+            </div>
+            <div>
+                <br>
+                <input class="this_button" type="submit" name="submit here">
+            </div>
+    </div>
+</body>
+
+</html>

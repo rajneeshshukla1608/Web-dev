@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOCKS</title>
+
+</head>
+<style>
+    .container1{
+        display: grid;
+        grid-template-rows:1fr 1fr 1fr;
+        grid-auto-rows: 2fr;
+        grid-template-columns: repeat(autofit,minmax(200px.1fr));
+        grid-gap: 5px;
+    }
+    .container{
+        border: 2px solid black;
+        background-color: blueviolet;
+        text-align: center;
+        padding-top: 20px;
+        height: 50px;
+
+
+    }
+    .container:first-child{
+     grid-column-start: 1;
+     grid-column-end: 3;
+     grid-row-start: 1;
+     grid-row-end: 3;
+    }
+</style>
+
+<div class="container1">
+    <div class="container">hello</div>
+    <div class="container">hello</div>
+    <div class="container">hello</div>
+    <div class="container">hello</div>
+    <div class="container">hello</div>
+    <div class="container">hello</div>
+</div>
+</body>
+
+</html>
